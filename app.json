@@ -1,0 +1,22 @@
+{
+  "name": "Igorbot",
+  "description": "Igorbot is your personal Igor, reincarnated as a Slack bot",
+  "repository": "https://github.com/plaufer1980/igorbot",
+  "logo": "",
+  "success_url": "/",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "IGORBOT_COMMAND_TOKEN": {
+      "description": "Slash command token, for the igorbot command endpoint",
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "description": "Slack bot RTM API token",
+      "required": false
+    },
+    "NODE_ENV": "staging"
+  },
+  "image": "heroku/nodejs"
+}
