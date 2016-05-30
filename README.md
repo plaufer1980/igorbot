@@ -3,13 +3,6 @@
 Igorbot is your personal Igor, reincarnated as a Slack bot. It is also the based on Starbot the sample referenced in the ["How to Deploy Your Slack Bots to Heroku"](https://blog.heroku.com/archives/2016/3/9/how-to-deploy-your-slack-bots-to-heroku) blog post.
 
 
-### Supported `/slash` commands
-
-Create a `/igor` [custom slash command](https://api.slack.com/slash-commands), using the URL: `{app-name}.herokuapp.com/commands/igorbot`. *Take note of the provided `token`, this is used to verify requests come from Slack.*
-
-- `/igor` or `/igor help` - List available commands
-- `/igor repos` - Display trending GitHub projects
-
 ### Install
 
 ```shell
@@ -34,7 +27,7 @@ PORT=3000
 ```shell
 $ npm start
 
-🚀 Igorbot LIVES on PORT 3000 🚀
+ Igorbot LIVES on PORT 3000
 ```
 
 Visit [localhost:3000](http://localhost:3000).
