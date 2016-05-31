@@ -11,6 +11,7 @@ const config = {
   PORT: process.env.PORT,
   PROXY_URI: process.env.PROXY_URI,
   SLACK_TOKEN: process.env.SLACK_TOKEN,
+  WIT_TOKEN: process.env.WIT_TOKEN,
   ICON_EMOJI: ':robot_face:'
 }
 

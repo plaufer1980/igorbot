@@ -12,6 +12,10 @@
       "description": "Slack bot RTM API token",
       "required": true
     },
+    "WIT_TOKEN": {
+      "description": "wit.ai token for nlp support",
+      "required": false
+    },
     "NODE_ENV": "staging"
   },
   "image": "heroku/nodejs"

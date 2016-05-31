@@ -27,7 +27,7 @@ app.listen(config('PORT'), (err) => {
 
   if (config('SLACK_TOKEN')) {
     console.log(` Igor: @igor is real-time\n`)
-    bot.connect(config('SLACK_TOKEN'))
+    bot.connect(config('SLACK_TOKEN'), config('WIT_TOKEN'))
   }
 
 })
